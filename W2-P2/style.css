@@ -1,0 +1,28 @@
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(assets/bg_epicode.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    font-size: 5em;
+    color: #fff;
+    padding: 40px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
